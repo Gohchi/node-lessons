@@ -1,0 +1,14 @@
+@keyframes textshadow {
+    0% {box-shadow: 10px 10px;} 
+    30% {box-shadow: 5px 5px;} 
+    100% {box-shadow: 10px 10px;}
+}
+#maintext {
+    display:inline;
+    box-shadow: 10px 10px; 
+    padding: 3px; border: 1px solid;
+}
+#maintext:hover {
+    animation-name: textshadow; 
+    animation-duration: 1s;
+}
