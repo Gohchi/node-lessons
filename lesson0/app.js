@@ -31,4 +31,4 @@ var server = http.createServer(function(request, response) {
 });
 
 server.listen(PORT, HOSTNAME);
-console.log('Server is listening at PORT:' + PORT);
+console.log('Server is listening at:' + HOSTNAME + ':' + PORT);
